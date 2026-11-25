@@ -6,7 +6,7 @@
 
 ## 1. Resumen ejecutivo
 
-El proyecto cumple el núcleo técnico de la EP3: cinco métricas aplicadas a 45 ejecuciones reales, 45 trazas instrumentadas, 166 registros históricos analizados, dashboard Streamlit con réplica HTML, correcciones con prueba de regresión, controles de privacidad y un informe de 2 páginas con evidencia visual. Las brechas que bajan la estimación son de forma y de verificación: falta el nombre del integrante B y las reflexiones individuales sin IA, el repositorio público no se puede validar desde estos archivos y la defensa oral solo existe como guion/PPT.
+El proyecto cumple el núcleo técnico de la EP3: cinco métricas aplicadas a 45 ejecuciones reales, 45 trazas instrumentadas, 166 registros históricos analizados, dashboard Streamlit con réplica HTML, correcciones con prueba de regresión, controles de privacidad y un informe de 2 páginas con evidencia visual. Las brechas que bajan la estimación son de forma y de verificación: falta la reflexión personal sin IA y la defensa oral solo existe como guion/PPT. El repositorio ya está publicado en https://github.com/jghleo/Ferrandes_Agente_EP3. La entrega se declara en modalidad individual, aunque la pauta original habla de parejas.
 
 **Nota estimada: 6,3 / 7,0** (logro global 0,88).
 
@@ -41,7 +41,7 @@ Los niveles siguen la escala de la pauta: 100 % (muy buen), 80 % (buen), 60 % (a
 
 **Fortalezas.** Precisión con definición operativa explícita (0,4 intención + 0,4 Jaccard de herramientas + 0,2 palabra clave), consistencia calculada sobre respuesta modal y con normalización de IDs dinámicos, y separación entre errores esperados (2 datos inexistentes) e inesperados (0). Se aplica a 15 escenarios con 3 repeticiones cada uno, incluyendo variabilidad de datos.
 
-**Brechas.** La etiqueta de referencia es construida por el equipo, no externa.
+**Brechas.** La etiqueta de referencia es construida por el estudiante, no externa.
 
 **Recomendación.** Ampliar el conjunto etiquetado y publicar la definición de "correcto" en el README para replicación externa.
 
@@ -73,9 +73,9 @@ Los niveles siguen la escala de la pauta: 100 % (muy buen), 80 % (buen), 60 % (a
 
 **Fortalezas.** Documento Word y PDF de 2 páginas (límite: 5), con tabla de métricas, tabla de hallazgos, captura del dashboard, controles de seguridad, recomendaciones numeradas, declaración de IA y referencias APA.
 
-**Brechas.** El nombre del integrante B y las dos reflexiones individuales siguen como placeholders, por exigencia de redacción sin IA. La URL del repositorio no está verificable en estos archivos.
+**Brechas.** La reflexión personal sigue como placeholder, por exigencia de redacción sin IA. El repositorio ya está publicado y es público.
 
-**Recomendación.** Completar el nombre del integrante B y las reflexiones sin apoyo de IA, y publicar el enlace del repositorio antes de la entrega.
+**Recomendación.** Redactar la reflexión sin apoyo de IA y verificar el enlace público del repositorio antes de la entrega.
 
 ### IE6 — Análisis crítico de ejecución — 80 %
 
@@ -103,7 +103,7 @@ Los niveles siguen la escala de la pauta: 100 % (muy buen), 80 % (buen), 60 % (a
 
 ### IE9 — Comunicación especializada — 60 %
 
-**Fortalezas.** El guion usa vocabulario técnico preciso (Jaccard, p95, normalización, spans, redacción) y prepara 10 respuestas con formato "afirmación → número → archivo → límite". El PPT tiene notas del expositor y reparte el tiempo entre ambos integrantes.
+**Fortalezas.** El guion usa vocabulario técnico preciso (Jaccard, p95, normalización, spans, redacción) y prepara 10 respuestas con formato "afirmación → número → archivo → límite". El PPT tiene notas del expositor y el guion cubre los 10 minutos con un solo expositor.
 
 **Brechas.** La exposición y las preguntas reales no son verificables; solo existe el material escrito. Por eso se mantiene el nivel "desempeño aceptable", coherente con la calibración usada en la EP2.
 
@@ -114,20 +114,20 @@ Los niveles siguen la escala de la pauta: 100 % (muy buen), 80 % (buen), 60 % (a
 | Requisito de la pauta | Estado | Observación |
 |---|---|---|
 | Informe escrito máximo 5 páginas (Word/PDF) | **Cumple** | `Informe_Tecnico_EP3_Ferrandes.docx/.pdf`, 2 páginas. |
-| Repositorio con código, documentación, bocetos y evidencia | Parcial | Estructura local completa; URL pública no verificable. |
+| Repositorio con código, documentación, bocetos y evidencia | **Cumple** | Público: https://github.com/jghleo/Ferrandes_Agente_EP3 |
 | README con instrucciones precisas | Cumple | Ver `README.md` actualizado a EP3. |
 | Capturas, gráficos y visualizaciones del dashboard | Cumple | 5 capturas en `dashboard/capturas/`; figuras insertadas en el informe y PPT. |
 | Citas APA | Cumple | Apartado 7 del informe con referencias APA. |
 | Declaración de uso de IA | Cumple | Informe §7 y README. |
-| Reflexiones individuales sin IA | **Pendiente** | Placeholders deliberados en informe, PPT y guion. |
-| Nombres de integrantes | **Parcial** | Leandro Marin (A) registrado; falta el integrante B. |
-| Presentación 20 min con participación equitativa | No verificable | Guion con 10 + 10 min y reparto A/B; sin grabación. |
+| Reflexión personal sin IA | **Pendiente** | Placeholder deliberado en informe, PPT y guion. |
+| Identificación del integrante | **Cumple** | Leandro Marin; modalidad individual declarada. |
+| Presentación 20 min con participación equitativa | No verificable / no aplica | Guion de 10 + 10 min con expositor único; sin grabación. |
 | Apoyo visual (PPT o dashboard) | Cumple | PPT de 13 diapositivas + dashboard interactivo y estático. |
 
 ## 5. Acciones que pueden cambiar la nota
 
-1. Redactar sin IA las dos reflexiones individuales y completar el nombre del integrante B: afecta IE5 e IE8.
-2. Publicar el repositorio y verificar el enlace: afecta el requisito formal de repositorio.
+1. Redactar sin IA la reflexión personal: afecta IE5 e IE8.
+2. Verificar el enlace público del repositorio: ya cumple el requisito formal.
 3. Ensayar y grabar la defensa de 10 + 10 minutos: puede elevar IE6 e IE9 de 80 %/60 % a 100 %/80 %.
 4. Ejecutar una medición de la caché propuesta: puede fortalecer IE7.
 

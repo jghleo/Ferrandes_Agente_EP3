@@ -179,25 +179,24 @@ Límite declarado: el agente es local y determinista; con un LLM real aumentarí
 - Evaluación según pauta: nota estimada **6,3 / 7,0** (logro 0,88), con desglose IE1–IE9.
 - Presentación: **13 diapositivas** con notas, guion de 20 minutos y apoyo visual del dashboard.
 
-> ⬅ **Pendiente antes de la entrega:** nombre del integrante B y las dos reflexiones individuales, que deben redactarse **sin apoyo de IA**.
+> ⬅ **Pendiente antes de la entrega:** la reflexión personal, que debe redactarse **sin apoyo de IA**.
 
 ---
 
 ## 🤖 Declaración de uso de IA
 
-Se usó asistencia de IA como apoyo para estructurar código, generar gráficos y preparar borradores técnicos. Las decisiones de diseño, el análisis de causas, las justificaciones y las reflexiones individuales son de autoría del equipo. Todo uso de IA debe citarse según [bibliotecas.duoc.cl/ia](https://bibliotecas.duoc.cl/ia).
+Se usó asistencia de IA como apoyo para estructurar código, generar gráficos y preparar borradores técnicos. Las decisiones de diseño, el análisis de causas, las justificaciones y la reflexión personal son de autoría de Leandro Marin. Todo uso de IA debe citarse según [bibliotecas.duoc.cl/ia](https://bibliotecas.duoc.cl/ia).
 
 ---
 
-## 👥 Integrantes y docente
+## 👤 Integrante y docente
 
 | Rol | Nombre |
 | :-- | :-- |
-| Integrante A | Leandro Marin |
-| Integrante B | ⬅ completar |
+| Integrante único | Leandro Marin |
 | Docente | Juan Burgueño |
 | Asignatura | ISY0101 · Ingeniería de Soluciones con IA |
-| Evaluación | EP3 · Encargo (60 %) + Presentación (40 %) |
+| Evaluación | EP3 · Encargo (60 %) + Presentación (40 %) · modalidad individual |
 
 ---
 

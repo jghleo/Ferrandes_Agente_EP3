@@ -15,12 +15,12 @@ El repositorio contiene:
 - `dashboard/app.py` y `dashboard/dashboard.html`
 - `evidencia/`, `src/`, `tests/`, `scripts/` y `assets/`
 
-## Actualizar después de completar nombres y reflexiones
+## Actualizar después de completar la reflexión
 
 ```sh
 cd /home/l480/Descargas/EP3_Ferrandes_Entrega
 git add -A
-git commit -m "Completar integrantes y reflexiones"
+git commit -m "Completar reflexion personal"
 git push origin main
 ```
 
@@ -30,4 +30,4 @@ git push origin main
 - `informe/Informe_Tecnico_EP3_Ferrandes.pdf`
 - `informe/Evaluacion_Pauta_EP3_Ferrandes.pdf` (si se solicita como anexo)
 
-Recordatorio: falta el nombre del integrante B y las dos reflexiones individuales, que deben redactarse **sin apoyo de IA**.
+Recordatorio: falta la reflexión personal, que debe redactarse **sin apoyo de IA**.

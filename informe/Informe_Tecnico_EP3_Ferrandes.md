@@ -1,7 +1,7 @@
 # Informe Técnico EP3 — Agente Ferrandes (FERRANDES)
 
 **Evaluación Parcial N°3 · ISY0101 · Encargo con Presentación (35 %)**
-Integrantes: Leandro Marin (A) · ⬅ completar (B) · Docente: Juan Burgueño · Fecha: semana 18
+Integrante: Leandro Marin · Docente: Juan Burgueño · Fecha: semana 18
 
 ## 1. Contexto y objetivo
 Se continúa el agente B2B de la EP2 con foco en **observabilidad**: medir precisión, latencia y consistencia bajo variabilidad de datos; analizar registros; construir un dashboard; proponer mejoras; e integrar seguridad y uso responsable. Se ejecutaron **45 ejecuciones** (15 escenarios × 3 repeticiones) sobre el agente real.
@@ -64,5 +64,4 @@ Marco: Ley 19.628 y Ley 21.719 (Chile), NIST AI RMF 1.0, OWASP Top 10 for LLM Ap
 - Referencias APA: Anthropic (2026); LangChain (2026); NIST (2023); OWASP Foundation (2025); Duoc UC (2026); Biblioteca del Congreso Nacional de Chile (2024).
 
 ## 8. Conclusiones y reflexiones individuales
-⬅ **REDACTAR SIN APOYO DE IA** — Integrante A: aprendizaje y contribución (3-5 líneas).
-⬅ **REDACTAR SIN APOYO DE IA** — Integrante B: aprendizaje y contribución (3-5 líneas).
+⬅ **REDACTAR SIN APOYO DE IA** — Leandro Marin: aprendizaje y contribución (3-5 líneas).
