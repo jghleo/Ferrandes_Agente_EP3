@@ -1,5 +1,7 @@
 # Agente Ferrandes — Observabilidad y defensa (EP3 · ISY0101)
 
+**Repositorio público:** https://github.com/jghleo/Ferrandes_Agente_EP3
+
 **Evaluación Parcial N°3** de *Ingeniería de Soluciones con IA*. Se continúa el agente B2B de la EP2 (Ferretería Industrial Andes SpA, FERRANDES) y se transforma en un **sistema observable, trazable, seguro y defendible con datos**: métricas reales, análisis de logs, dashboard, informe técnico y presentación de 20 minutos.
 
 > Resultado actual: **45 ejecuciones** (15 escenarios × 3 repeticiones) · precisión 100 % · p95 27,669 ms · consistencia 100 % · 0 errores inesperados · 45/45 trazas completas · 0 PII en trazas · 45 pruebas unitarias OK.
