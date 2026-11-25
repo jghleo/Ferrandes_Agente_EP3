@@ -1,0 +1,135 @@
+{
+  "generado": "2026-11-24T21:31:06",
+  "n_trazas_ep3": 45,
+  "n_logs_historicos": 166,
+  "latencia_p95_ms": 28.147,
+  "umbral_latencia_ms": 50.0,
+  "falsos_negativos_historicos": 2,
+  "falsos_negativos_ep3": 0,
+  "distribucion_intenciones": {
+    "stock": 12,
+    "precio": 6,
+    "cotizacion": 9,
+    "credito": 3,
+    "normativa": 3,
+    "soporte": 3,
+    "catalogo": 3,
+    "estado_pedido": 3,
+    "sin_intencion": 3
+  },
+  "hallazgos": [
+    {
+      "id": "P01",
+      "titulo": "Falso negativo por codigo de producto incompleto",
+      "severidad": "alta",
+      "cantidad": 2,
+      "ejemplo": "tienes stock del taladro HER-001?",
+      "causa_raiz": "La version preliminar extraia el prefijo del codigo (HER, ELE) en lugar del ID completo.",
+      "correccion": "Regex de extraccion con sufijo -\\d{3} en extraer_producto() y validacion contra el catalogo antes de responder; se anade caso de prueba de regresion.",
+      "estado": "corregido",
+      "indicador": "IE3 / IE6"
+    },
+    {
+      "id": "P02",
+      "titulo": "Dato inexistente correctamente informado",
+      "severidad": "informativa",
+      "cantidad": 3,
+      "ejemplo": "tienes stock del producto TOR-999?",
+      "causa_raiz": "El usuario consulta referencias fuera del catalogo (variabilidad de datos).",
+      "correccion": "Mantener el mensaje explicito y registrar error_esperado=True para no penalizar la precision.",
+      "estado": "monitoreado",
+      "indicador": "IE1 / IE3"
+    },
+    {
+      "id": "P03",
+      "titulo": "Replanificacion ante items invalidos",
+      "severidad": "media",
+      "cantidad": 3,
+      "ejemplo": "cotizar CL-001 TOR-001:10, XXX-999:5",
+      "causa_raiz": "Entrada con referencias inexistentes en una solicitud multi-item.",
+      "correccion": "El planificador descarta items invalidos, informa el motivo y continua con los validos.",
+      "estado": "corregido",
+      "indicador": "IE6 / IE7"
+    },
+    {
+      "id": "P04",
+      "titulo": "Pedido retenido por politica de credito",
+      "severidad": "media",
+      "cantidad": 3,
+      "ejemplo": "cotizar CL-002 TOR-001:9000",
+      "causa_raiz": "Monto sobre umbral o cupo insuficiente.",
+      "correccion": "Bloqueo EN_APROBACION + ticket al vendedor; no se confirma pedido sin autorizacion.",
+      "estado": "monitoreado",
+      "indicador": "IE3 / IE8"
+    },
+    {
+      "id": "P05",
+      "titulo": "Derivacion de consulta normativa a especialista",
+      "severidad": "media",
+      "cantidad": 3,
+      "ejemplo": "que EPP exige la norma para trabajo en altura?",
+      "causa_raiz": "Riesgo de inventar criterio legal/tecnico sobre EPP y seguridad laboral.",
+      "correccion": "Guardrail: derivar a especialista via ticket y responder solo con informacion verificable.",
+      "estado": "corregido",
+      "indicador": "IE8"
+    },
+    {
+      "id": "P06",
+      "titulo": "Latencia por encima del umbral de alerta",
+      "severidad": "informativa",
+      "cantidad": 0,
+      "ejemplo": "Sin ejecuciones sobre el umbral.",
+      "causa_raiz": "p95 observado = 28.147 ms; umbral = 50.0 ms.",
+      "correccion": "Ruta de escalabilidad: cache de recuperacion y ejecucion concurrente de herramientas independientes.",
+      "estado": "monitoreado",
+      "indicador": "IE2 / IE7"
+    },
+    {
+      "id": "P07",
+      "titulo": "Respuestas no consistentes entre repeticiones",
+      "severidad": "informativa",
+      "cantidad": 0,
+      "ejemplo": "Sin divergencias tras normalizar IDs dinamicos.",
+      "causa_raiz": "Consistencia minima = 1.00.",
+      "correccion": "Normalizar IDs secuenciales antes de comparar; fijar semilla del generador en pruebas.",
+      "estado": "corregido",
+      "indicador": "IE1 / IE3"
+    },
+    {
+      "id": "P08",
+      "titulo": "Trazas sin identificador o sin spans",
+      "severidad": "informativa",
+      "cantidad": 0,
+      "ejemplo": "Sin trazas incompletas.",
+      "causa_raiz": "Version EP2 registraba solo intencion y respuesta, sin unidades de trabajo temporales.",
+      "correccion": "Cada ejecucion emite trace_id, spans (clasificacion, RAG, ejecucion, log) y estado del resultado.",
+      "estado": "corregido",
+      "indicador": "IE3 / IE6"
+    },
+    {
+      "id": "P10",
+      "titulo": "PII redactada antes de persistir la traza",
+      "severidad": "media",
+      "cantidad": 3,
+      "ejemplo": "mi RUT [RUT] y mi mail [EMAIL]; stock de TOR-001",
+      "causa_raiz": "Algunas consultas de prueba incluyen RUT/email explicitos.",
+      "correccion": "redactar() sustituye PII por etiquetas; verificar_trazas() confirma 0 PII en el archivo.",
+      "estado": "corregido",
+      "indicador": "IE8"
+    }
+  ],
+  "puntos_criticos": [
+    {
+      "id": "P01",
+      "titulo": "Falso negativo por codigo de producto incompleto",
+      "severidad": "alta",
+      "cantidad": 2,
+      "ejemplo": "tienes stock del taladro HER-001?",
+      "causa_raiz": "La version preliminar extraia el prefijo del codigo (HER, ELE) en lugar del ID completo.",
+      "correccion": "Regex de extraccion con sufijo -\\d{3} en extraer_producto() y validacion contra el catalogo antes de responder; se anade caso de prueba de regresion.",
+      "estado": "corregido",
+      "indicador": "IE3 / IE6"
+    }
+  ],
+  "resumen": "Se analizaron 45 trazas EP3 y 166 registros historicos. Hallazgos criticos: 1. Falsos negativos de catalogo: 2 en EP2 -> 0 en EP3."
+}

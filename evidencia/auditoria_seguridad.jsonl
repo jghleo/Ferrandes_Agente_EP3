@@ -1,0 +1,142 @@
+{"timestamp": "2026-11-25T00:21:39+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:39+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:39+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:39+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "COT-000005", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "COT-000006", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "COT-000007", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "COT-000008", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "COT-000009", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "COT-000010", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "TOR-001", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "TOR-001", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:21:54+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "TOR-001", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:50, EPP-001:20", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:50, EPP-001:20", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:50, EPP-001:20", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:10", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:10", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:10", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:9000", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:9000", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:9000", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:21+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:21+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:21+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:21+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:21+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:10", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:27+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:27+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:27+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:27+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:27+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:10", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:33+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:33+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:33+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:33+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:33+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "TOR-001:10", "permitido": false, "datos": {"motivo": "El cliente no cuenta con consentimiento registrado para tratamiento de datos."}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:23:42+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:24:09+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:25:22+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-001", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-002", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-003", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "CONSENTIMIENTO_REGISTRADO", "cliente_id": "CL-004", "permitido": null, "datos": {"finalidades": "['cotizacion_pedidos']"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-001", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CONFIRMAR_PEDIDO", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_GENERAR_ORDEN_REPOSICION", "cliente_id": "ANONIMO", "permitido": true, "datos": {"motivo": "operacion_interna_sin_cliente_directo"}}
+{"timestamp": "2026-11-25T00:31:06+00:00", "evento": "ESCRITURA_CREAR_COTIZACION", "cliente_id": "CL-002", "permitido": true, "datos": {"motivo": "autorizado"}}

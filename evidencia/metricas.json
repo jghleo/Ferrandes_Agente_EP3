@@ -1,0 +1,163 @@
+{
+  "generado": "2026-11-24T21:31:06",
+  "umbral_latencia_ms": 50.0,
+  "n_escenarios": 15,
+  "n_ejecuciones": 45,
+  "precision_media": 1.0,
+  "precision_min": 1.0,
+  "latencia_p50_ms": 2.644,
+  "latencia_p95_ms": 27.669,
+  "latencia_max_ms": 28.154,
+  "consistencia_media": 1.0,
+  "consistencia_min": 1.0,
+  "tasa_error_inesperado": 0.0,
+  "errores_inesperados": 0,
+  "errores_esperados": 2,
+  "rss_max_mb": 33.06,
+  "cpu_promedio_pct": 86.85,
+  "ejecuciones_sobre_umbral": 0,
+  "por_intencion": {
+    "catalogo": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 1.946,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "cotizacion": {
+      "n": 3,
+      "precision": 1.0,
+      "latencia_p95_ms": 28.085,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "credito": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 6.883,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "estado_pedido": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.832,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "normativa": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 7.55,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "precio": {
+      "n": 2,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.085,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "sin_intencion": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.311,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "soporte": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 14.361,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "stock": {
+      "n": 4,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.614,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    }
+  },
+  "por_variabilidad": {
+    "cliente_sin_credito": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 6.883,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "consulta_general": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.311,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "consulta_normativa": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 7.55,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "dato_inexistente": {
+      "n": 2,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.81,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "dato_invalido": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 26.921,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "monto_alto": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 27.461,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "nominal": {
+      "n": 3,
+      "precision": 1.0,
+      "latencia_p95_ms": 25.533,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "pii_en_consulta": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.644,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "regresion": {
+      "n": 2,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.07,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "soporte": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 14.361,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    },
+    "stock_critico": {
+      "n": 1,
+      "precision": 1.0,
+      "latencia_p95_ms": 2.444,
+      "consistencia": 1.0,
+      "errores_inesperados": 0
+    }
+  }
+}

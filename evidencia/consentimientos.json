@@ -1,0 +1,38 @@
+{
+  "CL-001": {
+    "cliente_id": "CL-001",
+    "finalidades": [
+      "cotizacion_pedidos"
+    ],
+    "responsable": "equipo-ep3",
+    "fecha": "2026-11-25T00:31:06+00:00",
+    "version_politica": "2026.10-EP3"
+  },
+  "CL-002": {
+    "cliente_id": "CL-002",
+    "finalidades": [
+      "cotizacion_pedidos"
+    ],
+    "responsable": "equipo-ep3",
+    "fecha": "2026-11-25T00:31:06+00:00",
+    "version_politica": "2026.10-EP3"
+  },
+  "CL-003": {
+    "cliente_id": "CL-003",
+    "finalidades": [
+      "cotizacion_pedidos"
+    ],
+    "responsable": "equipo-ep3",
+    "fecha": "2026-11-25T00:31:06+00:00",
+    "version_politica": "2026.10-EP3"
+  },
+  "CL-004": {
+    "cliente_id": "CL-004",
+    "finalidades": [
+      "cotizacion_pedidos"
+    ],
+    "responsable": "equipo-ep3",
+    "fecha": "2026-11-25T00:31:06+00:00",
+    "version_politica": "2026.10-EP3"
+  }
+}

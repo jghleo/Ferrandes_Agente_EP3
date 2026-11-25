@@ -1,0 +1,15 @@
+digraph observabilidad {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8", fontname="Helvetica", fontsize=10];
+  A [label="Agente Ferrandes\n(45 ejecuciones)"];
+  B [label="Instrumentación\nspans + trace_id"];
+  C [label="Trazas redactadas\ntrazas_ep3.jsonl"];
+  D [label="Métricas\nprecisión / latencia /\nconsistencia / errores / recursos"];
+  E [label="Dashboard\nStreamlit + PNG"];
+  F [label="Análisis\nhallazgos + causa raíz"];
+  G [label="Recomendaciones\nIE7 / IE8"];
+  A -> B -> C -> D -> E;
+  C -> F -> G;
+  D -> F;
+  G -> A [label="mejora continua", style=dashed];
+}

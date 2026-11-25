@@ -1,0 +1,13 @@
+{
+  "registros": 45,
+  "pii_detectada": {},
+  "registros_con_cliente": 15,
+  "consentimiento_cubierto": 15,
+  "registros_sin_trace_id": 0,
+  "checks": {
+    "sin_pii_en_trazas": true,
+    "trazabilidad_completa": true,
+    "consentimiento_completo": true,
+    "auditoria_activa": true
+  }
+}
